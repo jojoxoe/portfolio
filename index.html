@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lloyd Pili - Software Engineer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="portfolio-shell">
+    <button id="themeToggle" class="theme-toggle fixed top-6 right-6 text-2xl z-50 transition-all reveal">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <main class="layout reveal">
+      <section class="hero-card card reveal reveal-delay-1">
+        <div class="hero-info">
+          <p class="eyebrow">Software Engineer</p>
+          <h1>Lloyd Pili</h1>
+          <p class="subtitle">Full-Stack Engineer focused on practical product systems</p>
+          <p class="meta">20 years old | Philippines</p>
+          <p class="meta">Academic: Undergrad BSCS</p>
+          <p class="lead">
+            I build reliable applications for business and daily use. I care about clean architecture, readable code, and products that solve real problems.
+          </p>
+          <div class="action-row">
+            <a href="#projects" class="mono-button mono-button-solid">View Projects</a>
+            <a href="#contact" class="mono-button mono-button-outline">Contact</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap reveal reveal-delay-2">
+          <a href="https://www.linkedin.com/in/lloyd-pili-6049483b6/" target="_blank" rel="noopener noreferrer" class="hero-photo-link">
+            <img src="assets/images/me.jpg" alt="Lloyd Pili" class="hero-photo">
+          </a>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="left-stack">
+          <article class="card reveal reveal-delay-1">
+            <h2 class="card-title"><i class="fas fa-user"></i> About</h2>
+            <p class="text-main">
+              I work with Laravel and Vue ecosystems while also shipping projects with Python and Django. My work style is structured, calm, and outcome-focused.
+            </p>
+          </article>
+
+          <article class="card reveal reveal-delay-1">
+            <h2 class="card-title"><i class="fas fa-briefcase"></i> Experience Snapshot</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <p class="time">2025 - Present</p>
+                <h3>Full-Stack Development</h3>
+                <p class="text-muted">Building and maintaining production-ready web applications.</p>
+              </div>
+              <div class="timeline-item">
+                <p class="time">Core Focus</p>
+                <p class="text-main">Laravel, Python, Django, Vue.js</p>
+              </div>
+            </div>
+          </article>
+
+          <article id="projects" class="card reveal reveal-delay-2">
+            <h2 class="card-title"><i class="fas fa-layer-group"></i> Featured Project</h2>
+            <div class="project-block">
+              <img src="assets/images/dashboardstrack.png" alt="strack.studio dashboard" class="project-image">
+              <p class="project-kicker">Financial Tracking Platform</p>
+              <a href="https://strack.studio/auth/login" target="_blank" rel="noopener noreferrer"><h3>strack.studio</h3></a>
+              <p class="text-main">
+                A personal finance web platform I created for saving money and handling expenses with clear day-to-day tracking.
+              </p>
+              <p class="text-muted">Built with Laravel 12, Vue 3, Pinia, Chart.js, Vite, and Tailwind CSS 4.0.</p>
+              <div class="project-actions">
+                <a href="https://github.com/jojoxoe/trackerapp" target="_blank" rel="noopener noreferrer" class="mono-button mono-button-solid">GitHub Repository</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="right-stack">
+          <article class="card reveal reveal-delay-1">
+            <h2 class="card-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <p class="text-main">Undergraduate</p>
+            <p class="text-main">Bachelor of Science in Computer Science</p>
+          </article>
+
+          <article class="card reveal reveal-delay-2">
+            <h2 class="card-title"><i class="fas fa-code"></i> Tech Stack</h2>
+            <div class="stack-group">
+              <h3 class="stack-subtitle">Backend & Databases</h3>
+              <div class="stack-tags">
+                <span class="stack-chip">PHP 8.2+</span>
+                <span class="stack-chip">Laravel 12</span>
+                <span class="stack-chip">Laravel Sanctum</span>
+                <span class="stack-chip">Eloquent ORM</span>
+                <span class="stack-chip">Python</span>
+                <span class="stack-chip">Django</span>
+                <span class="stack-chip">Node.js</span>
+                <span class="stack-chip">MySQL</span>
+                <span class="stack-chip">PostgreSQL</span>
+              </div>
+            </div>
+
+            <div class="stack-group">
+              <h3 class="stack-subtitle">Frontend</h3>
+              <div class="stack-tags">
+                <span class="stack-chip">Vue 3</span>
+                <span class="stack-chip">Vue Router</span>
+                <span class="stack-chip">Pinia</span>
+                <span class="stack-chip">Chart.js</span>
+                <span class="stack-chip">vue-chartjs</span>
+                <span class="stack-chip">Axios</span>
+              </div>
+            </div>
+
+            <div class="stack-group">
+              <h3 class="stack-subtitle">Build & Styling</h3>
+              <div class="stack-tags">
+                <span class="stack-chip">Vite</span>
+                <span class="stack-chip">Tailwind CSS 4.0</span>
+              </div>
+            </div>
+
+            <div class="stack-group">
+              <h3 class="stack-subtitle">DevOps</h3>
+              <div class="stack-tags">
+                <span class="stack-chip">Git</span>
+                <span class="stack-chip">GitHub</span>
+                <span class="stack-chip">OpenAI API</span>
+              </div>
+            </div>
+          </article>
+
+          <article id="contact" class="card reveal reveal-delay-2">
+            <h2 class="card-title"><i class="fas fa-envelope"></i> Contact</h2>
+            <p class="text-muted">Open to projects, internships, and collaboration.</p>
+            <div class="social-grid">
+              <a href="https://github.com/jojoxoe" target="_blank" class="mono-button mono-button-outline" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/lloyd-pili-6049483b6/" target="_blank" class="mono-button mono-button-outline" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://instagram.com/llydrml" target="_blank" class="mono-button mono-button-outline" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="contact-actions">
+              <a href="mailto:llyddex@gmail.com?subject=Hello%20Lloyd&body=I%27d%20like%20to%20get%20in%20touch%21" class="mono-button mono-button-solid">Send Email</a>
+            </div>
+          </article>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal reveal-delay-2">
+      <p>&copy; 2026 Lloyd Pili. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="js/theme-toggle.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/contact-form.js"></script>
+</body>
+</html>

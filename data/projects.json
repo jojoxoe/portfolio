@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "Full-stack e-commerce system with user authentication, product catalog, shopping cart, and payment integration. Built with PHP Laravel backend and vanilla JavaScript frontend.",
+    "category": "Business Systems",
+    "technologies": ["PHP", "Laravel", "MySQL", "JavaScript", "HTML", "CSS"],
+    "thumbnail": "ecommerce.png",
+    "github": "https://github.com/lloyd-pili/ecommerce-platform",
+    "live": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Inventory Management System",
+    "description": "Real-time inventory tracking system for small to medium businesses. Features include stock management, supplier tracking, and automated low-stock alerts.",
+    "category": "Business Systems",
+    "technologies": ["PHP", "Laravel", "PostgreSQL", "Vue.js", "Tailwind CSS"],
+    "thumbnail": "inventory.png",
+    "github": "https://github.com/lloyd-pili/inventory-system",
+    "live": "#",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Snake Game (Python)",
+    "description": "Classic snake game built with Python using Pygame. Features include score tracking, collision detection, and progressive difficulty levels.",
+    "category": "Game Development",
+    "technologies": ["Python", "Pygame"],
+    "thumbnail": "snake-game.png",
+    "github": "https://github.com/lloyd-pili/snake-game",
+    "live": "#",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Task Management App",
+    "description": "Collaborative task management application with kanban board, deadline tracking, and team permissions. University capstone project.",
+    "category": "University Project",
+    "technologies": ["JavaScript", "React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+    "thumbnail": "task-mgmt.png",
+    "github": "https://github.com/lloyd-pili/task-management",
+    "live": "#",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Personal Blog Platform",
+    "description": "Dynamic blog platform with markdown support, comment system, and SEO optimization. Built to experiment with modern web technologies.",
+    "category": "Web Application",
+    "technologies": ["JavaScript", "Node.js", "MongoDB", "Tailwind CSS"],
+    "thumbnail": "blog.png",
+    "github": "https://github.com/lloyd-pili/blog-platform",
+    "live": "#",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Weather Dashboard",
+    "description": "Real-time weather application displaying current conditions, forecasts, and maps. Integrated with OpenWeather API.",
+    "category": "Web Application",
+    "technologies": ["JavaScript", "HTML", "CSS", "REST API", "Geolocation API"],
+    "thumbnail": "weather.png",
+    "github": "https://github.com/lloyd-pili/weather-dashboard",
+    "live": "#",
+    "featured": false
+  }
+]

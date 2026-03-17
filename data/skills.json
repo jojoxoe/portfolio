@@ -1,0 +1,46 @@
+{
+  "frontend": {
+    "title": "Frontend",
+    "skills": [
+      { "name": "HTML5", "proficiency": 95 },
+      { "name": "CSS3", "proficiency": 90 },
+      { "name": "JavaScript", "proficiency": 90 },
+      { "name": "React.js", "proficiency": 85 },
+      { "name": "Tailwind CSS", "proficiency": 90 },
+      { "name": "Responsive Design", "proficiency": 95 },
+      { "name": "Git & GitHub", "proficiency": 90 }
+    ]
+  },
+  "backend": {
+    "title": "Backend",
+    "skills": [
+      { "name": "PHP", "proficiency": 88 },
+      { "name": "Laravel", "proficiency": 85 },
+      { "name": "Node.js", "proficiency": 80 },
+      { "name": "MySQL", "proficiency": 85 },
+      { "name": "PostgreSQL", "proficiency": 80 },
+      { "name": "REST APIs", "proficiency": 88 },
+      { "name": "Authentication", "proficiency": 85 }
+    ]
+  },
+  "gamedev": {
+    "title": "Game Development",
+    "skills": [
+      { "name": "Python", "proficiency": 82 },
+      { "name": "Pygame", "proficiency": 80 },
+      { "name": "Game Logic", "proficiency": 78 },
+      { "name": "Graphics Programming", "proficiency": 75 }
+    ]
+  },
+  "tools": {
+    "title": "Tools & Platforms",
+    "skills": [
+      { "name": "VS Code", "proficiency": 95 },
+      { "name": "Docker", "proficiency": 75 },
+      { "name": "Git", "proficiency": 90 },
+      { "name": "Linux", "proficiency": 80 },
+      { "name": "npm/Composer", "proficiency": 85 },
+      { "name": "Figma", "proficiency": 70 }
+    ]
+  }
+}
